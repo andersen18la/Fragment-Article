@@ -1,13 +1,13 @@
-#Fragment
+# Fragment
 
-###Hvad er et Fragment?
+### Hvad er et Fragment?
 
 Et Fragment er en slags let Activity. Du kan kombinere flere fragments til én Activity, Dvs. at du kan genbruge til hvert fragment, samtidig med at du kan vise forskellige ting på de 2 fragments. Et Fragment skal altid kobles på en Activity, og hvis man sletter Aktiviteten, så fjerner man også Fragments. Hvis man pauser Aktiviteten så pauser ligeledes alle Fragments. Fordelen ved at bruge Fragments er at det er med til at give et mere dynamisk og fleksibelt Bruger Interface med genanvendeligt kode, som for eksempel en Navigation bar. 
 
 I denne artikel vil jeg fortælle om hvordan kan benytte sig af Fragments og vise en nem måde at navigere imellem de forskellige fragments. Fragments er knyttet til en Activity og i stedet for at sende dig til en anden Activity når du skal videre på appen, så er det 2 forskellige fragments du navigerer rundt på. Jeg har også lavet en Second Activity, for at vise en Activity som også kører uafhængigt af Fragments.
 
 
-###Setup af Fragment: 
+### Setup af Fragment: 
 
 En Fragment bliver tilføjet til dit projekt ligesom en ny Activity gør.
 Efter du har lavet et nyt projekt, skal du være i mappen, som vist på billedet, altså din app mappe
